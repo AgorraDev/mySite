@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Submit form</title>
+</head>
+
+<body>
+  <h3>Submit this data so I can learn!</h3>
+  <table>
+    <form class="" action="index.html" method="post"> 
+      <tr>
+        <td>
+          <label for="name">What is your name?</label>
+        </td>
+        <td>
+          <input type="text" id="name" name="" value="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">What is your email?</label>
+        </td>
+        <td>
+          <input type="email" id="email" name="" value="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="date">What day is it?</label>
+        </td>
+        <td>
+          <input type="date" id="date" name="" value="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>This is a radio input. What is your favorite number?</label>
+        </td>
+        <td>
+          <input type="radio" id="one" name="numbers" value="one"><label for="one">One</label><br>
+          <input type="radio" id="two" name="numbers" value="two"><label for="two">Two</label><br>
+          <input type="radio" id="three" name="numbers" value="thre"><label for="three">Three</label><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="file">Upload a file!</label>
+        </td>
+        <td>
+          <input type="file" id="file" name="" value="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="range">Choose a number from this range</label>
+        </td>
+        <td>
+          <input type="range" id="range" name="" value="" min="0" max="6">
+        </td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+        <td> <input type="submit" name="" value="Submit info"> <input type="reset" name="" value="Reset info">
+        </td>
+      </tr>
+    </form>
+  </table>
+</body>
+
+</html>
